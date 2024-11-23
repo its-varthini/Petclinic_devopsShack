@@ -8,8 +8,8 @@
     <version>5.3.13</version>
    </parent> 
     
-    <groupId>com.javaproject</groupId>
-    <artifactId>Springframework_Petclinic_project</artifactId>
+    
+    <artifactId>spring-framework-petclinic</artifactId>
     <version>0.0.1petclinic-SNAPSHOT</version>
     <name>Spring Framework Petclinic</name>
     <packaging>war</packaging>
