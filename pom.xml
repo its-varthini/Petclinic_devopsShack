@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-   
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework.samples</groupId>
     <artifactId>spring-framework-petclinic</artifactId>
-    
-   
-    <version>0.0.1petclinic-SNAPSHOT</version>
+    <version>5.3.13</version>
+
     <name>Spring Framework Petclinic</name>
     <packaging>war</packaging>
     <description>A Spring Framework application based on JSP, Spring MVC, Spring Data JPA, Hibernate and JDBC</description>
@@ -546,6 +544,7 @@
             </dependencies>
         </profile>
    </profiles>
+
     <repositories>
         <repository>
             <id>repository.spring.milestone</id>
@@ -553,14 +552,5 @@
             <url>https://repo.spring.io/milestone</url>
         </repository>
     </repositories>
-  <distributionManagement>
-  <repository>
-    <id>maven-releases</id>
-    <url>http://3.88.202.255:8081/repository/maven-releases/</url>
-  </repository>
-  <snapshotRepository>
-    <id>maven-snapshots</id>
-    <url>http://3.88.202.255:8081/repository/maven-snapshots/</url>
-  </snapshotRepository>
-</distributionManagement>
+
 </project>
