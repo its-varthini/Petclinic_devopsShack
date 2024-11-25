@@ -460,10 +460,8 @@
                 </configuration>
             </plugin>
 
-        </plugins>
-        
-   <plugins>
-    <plugin>
+              
+      <plugin>
       <groupId>org.owasp</groupId>
       <artifactId>dependency-check-maven</artifactId>
       <version>INSERT_VERSION_HERE</version>
@@ -475,7 +473,8 @@
         </execution>
       </executions>
     </plugin>
-  </plugins>
+  
+</plugins>
 
     </build>
 
