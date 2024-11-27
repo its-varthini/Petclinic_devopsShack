@@ -1,4 +1,8 @@
-FROM openjdk:8
+FROM openjdk:8u151-jdk-alpine3.7
+
 EXPOSE 8082
-ADD target/petclinic.war petclinic.war
-ENTRYPOINT ["java","-jar","/petclinic.war"]
+ENV APP_HOME /usr/src/app
+
+COPY target/petclinic.war $APP_HOME/petclinic.war
+WORKDIR $APP_HOME
+ENTRYPOINT exec java -jar petclinic.war
